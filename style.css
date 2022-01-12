@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    width: 900px;
+    height: 105px;
+    background-image: url(img/avt.png);
+}
+header i{
+    font-size: 65px;
+    padding-left: 85px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+header h4{
+    padding-left: 30px;
+    color: black;
+}
+nav .menu{
+    height: 35px;
+    background: lightskyblue;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    padding: 0 15px;
+}
+nav .menu ul li a:hover{
+    cursor: pointer;
+    color: pink;
+}
+nav .menu ul li a{
+    line-height: 35px;
+    padding: 0px 15px 0px 15px;
+    color: aliceblue;
+    font-size:  15px;
+    text-decoration: none;
+    border-right: 1px solid #0f0208;
+}
+nav .tim{
+    line-height: 35px;
+    float: right;
+    padding-right: 25px;
+}
+.content{
+    height: 350px;
+    width: 70%;
+    float: left;
+}
+/* them chuyen 3 anh  */
+.banner{
+    padding-top: 350px;
+    height: 113px;
+    width: 70%;
+    
+}
+#imgbanner img{
+    height: 113px;
+    width: 630px;
+}
+.profile{
+    float: right;
+    width: 268px;
+    height: 463px;
+    text-align: center;
+    background-color: rgb(255, 217, 223);
+    /* border: 1px solid rgb(207, 253, 0); */
+    border-radius: 15px;
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    padding-top: 65px;
+}
+#name{
+    padding-top: 15px;
+    font-family: "Cambria";
+}
+.icons ul{
+    padding-top: 25px;
+}
+.icons ul li {
+    list-style: none;
+    /* padding-right: 165px; */
+    clear: left;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.icons ul li a{
+    color: black;
+}
+.icons ul li a i:hover{
+    color: red;
+}
+#icon_facebook i:hover{
+    color: #3B5998;
+}
+#tieude{
+    text-align: center;
+    padding-top: 10px;
+}
+#all{
+    margin-top: 15px;
+}
+.content ul li{
+    clear: left;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(19, 3, 3);
+    float: left;
+    margin-bottom: 15px;
+}
+.content ul li img{
+    width: 89px;
+    height: 76px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+.content ul li h2{
+    font-size: 16px;
+}
+.content ul li p{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: beige;
+    width: 900px;
+    height: 110px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+footer div ul li{
+    list-style: none;
+    display: inline;
+}
+footer div ul{
+    text-align: center;
+    padding-top: 2px;
+}
+footer div ul li a{
+    float: none;
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+}
+footer div ul li a:hover{
+    color: pink;
+}
+.copyright{
+    clear: left;
+    text-align: center;
+}
+.my_icons ul li a i{
+    color: black;
+}
